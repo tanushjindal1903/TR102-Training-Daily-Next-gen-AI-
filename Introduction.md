@@ -92,5 +92,5 @@ Each daily report included in this repository follows a standardized format cons
 | **Major Project** | AI-Based Personalized Movie Recommendation System with Advanced Features |
 
 ---
-
+👉 *Navigate to [Week 1 Logs](./WEEK_01.md) to view daily progress.*
 *This repository will be regularly updated throughout the training period to reflect my daily progress, technical learning, project development, and practical experience gained during the Six-Week Industrial Training Program.*
