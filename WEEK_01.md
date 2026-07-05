@@ -111,3 +111,86 @@ The laboratory session centered on executing a complete data pipeline workflow, 
 * **Multivariate Correlation Diagnostics:** Computed mathematical correlation coefficient tables exclusively for numeric attributes using `.corr()`. Piped these values into a customized annotated matrix heatmap (`sns.heatmap`) using a continuous divergent color spectrum to isolate directional dependencies between metrics (such as mapping structural connections between Age, Semester depth, CGPA, and Attendance scores).
 
 ---
+
+⭐ ⭐ ⭐
+
+---
+## 📅 Day 4: Data Analysis Techniques & Feature Engineering
+**Date:** July 3, 2026
+
+### 📝 Technical Competencies Acquired
+
+#### 1. Univariate Analysis
+- Learned to analyze a single variable independently.
+- Explored measures of central tendency such as mean, median, and mode.
+- Understood the significance of minimum and maximum values in summarizing data.
+- Performed frequency distribution analysis for categorical variables.
+
+#### 2. Bivariate Analysis
+- Studied relationships between two variables.
+- Used the `groupby()` function to aggregate and summarize data.
+- Compared numerical attributes across different categories.
+- Interpreted relationships using grouped statistical measures.
+
+#### 3. Multivariate Analysis
+- Explored relationships involving multiple variables simultaneously.
+- Generated grouped summaries using multiple numerical features.
+- Learned how multivariate analysis helps identify complex patterns within datasets.
+
+#### 4. Crosstab Analysis
+- Learned to create contingency tables using `pd.crosstab()`.
+- Analyzed the frequency distribution between multiple categorical variables.
+- Understood the importance of crosstab analysis for comparing categorical data.
+
+#### 5. Correlation Analysis
+- Studied correlation between numerical variables.
+- Learned how correlation coefficients indicate the strength and direction of relationships.
+- Interpreted positive, negative, and zero correlation values.
+
+#### 6. Data Sorting and Ranking
+- Learned to sort datasets based on selected attributes.
+- Applied ascending and descending sorting techniques for effective data exploration.
+- Understood the importance of ranking records for analytical purposes.
+
+#### 7. Feature Engineering
+- Introduced to feature engineering as a data preprocessing technique.
+- Learned to create new features from existing attributes.
+- Applied logical conditions to generate derived variables.
+- Understood how engineered features improve machine learning model performance.
+
+### 💻 Practical Implementation
+- Performed descriptive statistical analysis using Pandas.
+- Applied grouping and aggregation techniques.
+- Generated contingency tables for categorical analysis.
+- Computed correlation matrices for numerical variables.
+- Sorted datasets based on selected features.
+- Created new derived features using conditional logic.
+
+### 🛠️ Python Libraries & Functions Used
+- **Pandas**
+  - `groupby()`
+  - `value_counts()`
+  - `mean()`
+  - `median()`
+  - `mode()`
+  - `max()`
+  - `min()`
+  - `sort_values()`
+  - `corr()`
+  - `crosstab()`
+- Conditional feature creation using Boolean expressions.
+
+### 📚 Key Concepts Learned
+- Univariate Analysis
+- Bivariate Analysis
+- Multivariate Analysis
+- Descriptive Statistics
+- GroupBy Operations
+- Crosstab Analysis
+- Correlation Analysis
+- Data Sorting
+- Feature Engineering
+- Data Aggregation
+
+### 🎯 Learning Outcome
+Developed a strong understanding of exploratory data analysis techniques by analyzing individual variables, identifying relationships between multiple variables, performing statistical summaries, and creating meaningful features through feature engineering. These techniques form the foundation for effective data preprocessing and machine learning workflows.
