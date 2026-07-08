@@ -29,9 +29,23 @@
 
 ---
 
-### 🎯 Objective for Day 2
-* Begin studying different data types and data structures while gaining hands-on experience with data preprocessing techniques, including handling missing values, identifying outliers, and preparing datasets for analysis.
+### 📚 Learning Outcomes
 
+* Developed a clear understanding of the distinction between raw data and meaningful information, along with their roles in analytical processes and decision-making.
+
+* Acquired knowledge of various data collection methodologies, including the differences between primary and secondary data sources and their respective applications.
+
+* Gained familiarity with the classification of data based on structure, specifically distinguishing between structured and unstructured datasets.
+
+* Understood the significance of data exploration as an essential preliminary step in data analysis and machine learning workflows.
+
+* Learned how effective data exploration contributes to identifying patterns, inconsistencies, and key characteristics within datasets.
+
+* Developed an appreciation for the importance of proper data organization and management in building reliable analytical and machine learning systems.
+
+* Gained practical exposure to version control concepts through Git configuration and the establishment of a structured GitHub repository for maintaining training documentation and project artifacts.
+
+* Established a strong theoretical foundation that will support subsequent topics such as data preprocessing, exploratory data analysis, feature engineering, and machine learning model development.
 
 
 ---
@@ -72,7 +86,27 @@ The session focused on how programming environments manage data in memory before
 * **Pandas Series:** Initialized 1D arrays representing a single column of data with an explicit, labeled index system.
 * **Pandas DataFrames:** Built tabular, 2D data matrices mimicking relational spreadsheet schemas. Practice mapping multi-column dictionary arrays into structured rows and data frames, and checked structural columns using the dtypes property.
 
+---
 
+### 📚 Learning Outcomes
+
+* Developed a strong understanding of Python's primitive data types, including integers, floating-point numbers, strings, and Boolean values.
+
+* Gained familiarity with Python collection data structures such as lists, tuples, dictionaries, and sets, along with their characteristics and practical applications.
+
+* Understood the differences between mutable and immutable data structures and their significance in programming and memory management.
+
+* Learned how to select appropriate data structures based on the nature of the problem and the required operations.
+
+* Acquired foundational knowledge of the Pandas library and its role in data manipulation and analysis workflows.
+
+* Explored the core Pandas data structures, namely Series and DataFrames, and understood their importance in handling tabular datasets.
+
+* Developed an understanding of how structured data can be represented, stored, and manipulated using DataFrames for analytical purposes.
+
+* Gained practical exposure to importing libraries, creating basic data structures, and preparing data for subsequent preprocessing and exploratory analysis tasks.
+
+* Established a strong programming foundation that will support future concepts such as data cleaning, feature engineering, visualization, and machine learning model development.
 ---
 
 ⭐ ⭐ ⭐
@@ -110,6 +144,29 @@ The laboratory session centered on executing a complete data pipeline workflow, 
   * *Countplots:* Generated frequency distribution graphs (`sns.countplot`) to assess density rankings across nominal categories.
 * **Multivariate Correlation Diagnostics:** Computed mathematical correlation coefficient tables exclusively for numeric attributes using `.corr()`. Piped these values into a customized annotated matrix heatmap (`sns.heatmap`) using a continuous divergent color spectrum to isolate directional dependencies between metrics (such as mapping structural connections between Age, Semester depth, CGPA, and Attendance scores).
 
+---
+
+### 📚 Learning Outcomes
+
+* Developed an understanding of the significance of data preprocessing as a crucial step in the machine learning pipeline.
+
+* Learned to identify and handle missing values using appropriate imputation and removal techniques based on dataset characteristics.
+
+* Gained practical knowledge of detecting and removing duplicate records to improve data quality and consistency.
+
+* Understood the concept of outliers and their impact on statistical analysis and machine learning model performance.
+
+* Explored various outlier detection methods, including statistical approaches and visualization-based techniques such as box plots.
+
+* Acquired knowledge of data normalization and standardization techniques used to scale numerical features for machine learning algorithms.
+
+* Learned the importance of maintaining data integrity and consistency during preprocessing operations.
+
+* Gained hands-on experience with Python libraries such as Pandas and NumPy for performing data cleaning and transformation tasks.
+
+* Developed an appreciation for the role of high-quality data in improving model accuracy, reliability, and interpretability.
+
+* Established a strong foundation for subsequent topics such as exploratory data analysis, feature engineering, and predictive modeling.
 ---
 
 ⭐ ⭐ ⭐
@@ -194,3 +251,97 @@ The laboratory session centered on executing a complete data pipeline workflow, 
 
 ### 🎯 Learning Outcome
 Developed a strong understanding of exploratory data analysis techniques by analyzing individual variables, identifying relationships between multiple variables, performing statistical summaries, and creating meaningful features through feature engineering. These techniques form the foundation for effective data preprocessing and machine learning workflows.
+
+---
+
+⭐ ⭐ ⭐
+
+---
+---
+
+# 📅 Day 4: Data Visualization Using Matplotlib and Seaborn
+
+**Date:** 04 July 2026
+
+### 📝 Technical Competencies Acquired
+
+#### 1. Fundamentals of Data Visualization
+* Developed an understanding of data visualization as the graphical representation of data for identifying patterns, trends, distributions, and relationships.
+* Learned how visual representations simplify the interpretation of large datasets compared to raw numerical tables.
+* Explored the role of visualization in data analysis and decision-making processes.
+
+#### 2. Introduction to Visualization Libraries
+* Studied the features and applications of two major Python visualization libraries:
+    * **Matplotlib**
+        * Core plotting library in Python.
+        * Highly customizable and suitable for creating basic visualizations.
+        * Provides extensive control over plot elements and formatting.
+
+    * **Seaborn**
+        * Built on top of Matplotlib.
+        * Offers aesthetically pleasing default themes and styles.
+        * Particularly useful for statistical and exploratory visualizations.
+        * Integrates efficiently with Pandas DataFrames.
+
+#### 3. Understanding Different Visualization Techniques
+* Explored the applications of commonly used charts and plots:
+
+| Visualization | Data Type | Primary Use |
+|--------------|----------|-------------|
+| Histogram | Numerical | Distribution Analysis |
+| Box Plot | Numerical | Outlier Detection and Spread Analysis |
+| Count Plot | Categorical | Frequency Distribution |
+| Bar Chart | Categorical + Numerical | Comparative Analysis |
+| Pie Chart | Categorical | Percentage Distribution |
+| Line Chart | Sequential Data | Trend Analysis |
+
+#### 4. Data Preparation for Visualization
+* Learned the importance of preparing datasets before visualization.
+* Performed:
+    * Duplicate record removal.
+    * Standardization of categorical values.
+    * Basic dataset cleaning operations.
+* Understood how preprocessing directly impacts visualization quality and interpretability.
+
+#### 5. Histogram Analysis
+* Created histograms to analyze the distribution of numerical attributes.
+* Studied the significance of:
+    * Number of bins.
+    * Frequency distribution.
+    * Axis labeling and plot titles.
+* Visualized attendance distribution within the dataset.
+
+#### 6. Kernel Density Estimation (KDE)
+* Introduced to Kernel Density Estimation (KDE) as a method for generating smooth probability density curves.
+* Used KDE to better understand the concentration and spread of data values.
+* Applied KDE while visualizing study hour distributions.
+
+---
+
+### 💻 Practical Implementations
+
+* Mounted Google Drive in Google Colab to access external datasets.
+* Imported and analyzed a student dataset using Pandas.
+* Performed data cleaning and preprocessing operations:
+    * Removed duplicate records.
+    * Standardized text formatting for categorical columns.
+* Generated visualizations using:
+    * Matplotlib Histograms
+    * Seaborn Histograms with KDE
+* Customized plots using:
+    * Figure sizes
+    * Titles
+    * Axis labels
+    * Bin configurations
+
+---
+
+### 📚 Learning Outcomes
+
+* Developed an understanding of the importance of data visualization in exploratory data analysis and machine learning workflows.
+* Acquired practical experience in creating and customizing visualizations using Matplotlib and Seaborn.
+* Learned to interpret data distributions, identify trends, and detect anomalies using graphical representations.
+* Understood the significance of preprocessing and data cleaning before visualization tasks.
+* Gained familiarity with histogram analysis and Kernel Density Estimation (KDE) for understanding data distributions.
+* Improved proficiency in using Python-based visualization tools for transforming raw datasets into meaningful insights.
+* Established a strong foundation for exploring advanced visualization techniques and statistical analysis in subsequent sessions.
