@@ -67,7 +67,7 @@
 * Gained practical exposure to visualizing feature distributions using Matplotlib and Seaborn.
 * Established a strong foundation for advanced preprocessing techniques and machine learning model development.
 
-  ---
+ ---
 
 ⭐ ⭐ ⭐
 
@@ -134,3 +134,77 @@
 * Improved proficiency in using Scikit-learn libraries for feature transformation tasks.
 * Developed the ability to visualize high-dimensional data in lower-dimensional spaces.
 * Established a strong foundation for advanced machine learning techniques involving feature optimization and model efficiency.
+
+---
+
+⭐ ⭐ ⭐
+
+---
+
+# 📅 Day 6: Principal Component Analysis (PCA) and Dimensionality Reduction
+
+**Date:** 06 July 2026
+
+### 📝 Technical Competencies Acquired
+
+#### 1. Introduction to Dimensionality Reduction
+* Developed an understanding of dimensionality reduction as a technique used to decrease the number of features in a dataset while preserving the most significant information.
+* Learned the importance of reducing computational complexity and improving model efficiency when working with high-dimensional datasets.
+* Understood how redundant and highly correlated features can negatively impact machine learning models.
+
+#### 2. Principal Component Analysis (PCA)
+* Studied Principal Component Analysis (PCA) as a statistical technique for reducing dimensionality.
+* Learned how PCA transforms multiple correlated variables into a smaller number of uncorrelated variables known as **Principal Components**.
+* Understood that each principal component captures a portion of the variance present in the original dataset.
+
+#### 3. Feature Correlation and Redundancy
+* Explored the concept of feature correlation and the presence of overlapping information among variables.
+* Learned how PCA combines correlated features into representative components without significant information loss.
+* Understood the advantages of eliminating redundant information prior to model training.
+
+#### 4. Data Standardization
+* Learned the importance of scaling numerical features before applying PCA.
+* Utilized standardization techniques to ensure that all variables contribute equally to the principal components.
+* Understood the role of feature scaling in distance-based and variance-based algorithms.
+
+#### 5. Variance Preservation
+* Studied the concept of explained variance and its role in selecting the number of principal components.
+* Learned how cumulative explained variance helps determine the amount of information retained after dimensionality reduction.
+* Understood the trade-off between reducing dimensionality and preserving information.
+
+#### 6. PCA Visualization
+* Generated two-dimensional projections of multidimensional data using principal components.
+* Visualized transformed datasets to identify hidden patterns and similarities among observations.
+* Interpreted scatter plots representing data points in reduced feature space.
+
+---
+
+### 💻 Practical Implementations
+
+* Imported and explored a student placement dataset using Pandas.
+* Selected numerical attributes including:
+    * Age
+    * CGPA
+    * Attendance
+    * Study Hours
+    * Backlogs
+* Applied `StandardScaler` to normalize feature values.
+* Implemented PCA using Scikit-learn's `PCA` module with two principal components.
+* Calculated explained variance ratios to evaluate information retention.
+* Computed cumulative explained variance using NumPy.
+* Visualized the transformed dataset using Matplotlib scatter plots.
+
+---
+
+### 📚 Learning Outcomes
+
+* Developed a strong understanding of dimensionality reduction and its importance in machine learning workflows.
+* Acquired practical knowledge of Principal Component Analysis and its applications in handling high-dimensional data.
+* Learned how PCA reduces redundancy while preserving the most informative characteristics of a dataset.
+* Gained experience in standardizing data prior to feature transformation.
+* Improved understanding of explained variance and component selection.
+* Developed the ability to visualize multidimensional data in lower-dimensional spaces.
+* Gained hands-on experience using Scikit-learn libraries for feature transformation and preprocessing tasks.
+* Established a strong foundation for advanced machine learning concepts involving feature optimization and model efficiency.
+
+---
