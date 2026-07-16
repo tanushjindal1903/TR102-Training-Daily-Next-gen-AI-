@@ -67,3 +67,82 @@
 * Established a strong foundation for efficient preprocessing and machine learning model development workflows.
 
 ---
+
+# 📅 Day 11: Introduction to Supervised Learning and Predictive Modeling
+
+**Date:** July 10, 2026
+
+### 📝 Technical Competencies Acquired
+
+#### 1. Introduction to Supervised Learning
+* Developed an understanding of **Supervised Learning** as a machine learning paradigm in which models learn from labelled datasets containing both input features and corresponding target outputs.
+* Learned how supervised learning algorithms identify relationships between input variables and known outputs to make predictions on unseen data.
+* Understood the role of labelled data in guiding the learning process and improving prediction accuracy.
+
+#### 2. Machine Learning Workflow
+* Studied the standard supervised machine learning pipeline:
+    * Data Collection
+    * Data Cleaning and Preprocessing
+    * Feature Engineering
+    * Train-Test Splitting
+    * Model Training
+    * Model Evaluation
+    * Prediction and Deployment
+* Understood the importance of each stage in building reliable machine learning solutions.
+
+#### 3. Classification Problems
+* Learned that classification is used when the target variable belongs to predefined categories or classes.
+* Explored real-world classification problems such as:
+    * Student Placement Prediction
+    * Email Spam Detection
+    * Disease Diagnosis
+* Understood that classification models produce categorical outputs rather than numerical values.
+
+#### 4. Regression Problems
+* Studied regression as a supervised learning technique used for predicting continuous numerical values.
+* Explored examples of regression applications including:
+    * Salary Prediction
+    * House Price Estimation
+    * Temperature Forecasting
+* Understood the distinction between classification and regression tasks.
+
+#### 5. Logistic Regression
+* Developed an understanding of Logistic Regression as a widely used classification algorithm.
+* Learned how Logistic Regression estimates probabilities and assigns class labels based on decision thresholds.
+* Understood the use of sigmoid functions in transforming predictions into probability values.
+
+#### 6. Dataset Preparation for Model Training
+* Studied the process of selecting input features and target variables for supervised learning tasks.
+* Learned the significance of feature selection in improving model performance and interpretability.
+* Understood the role of train-test splitting in evaluating model generalization capabilities.
+
+---
+
+### 💻 Practical Implementations
+
+* Mounted Google Drive and imported the cleaned student dataset into Google Colab.
+* Loaded the dataset using Pandas for analysis and model development.
+* Performed preprocessing on the target variable by converting placement labels into binary values.
+* Selected relevant features including:
+    * CGPA
+    * Attendance
+    * Study Hours
+* Split the dataset into training and testing subsets using `train_test_split()`.
+* Implemented a Logistic Regression model using Scikit-learn.
+* Trained the model on the training dataset.
+* Evaluated model performance using prediction accuracy metrics.
+
+---
+
+### 📚 Learning Outcomes
+
+* Developed a strong understanding of the fundamentals of supervised learning and predictive modeling.
+* Learned the differences between classification and regression problems and their practical applications.
+* Acquired practical knowledge of the machine learning development pipeline.
+* Gained hands-on experience in preparing datasets for supervised learning tasks.
+* Improved understanding of feature selection and target variable preparation.
+* Developed familiarity with Logistic Regression and its applications in classification problems.
+* Learned the importance of train-test splitting for evaluating model performance on unseen data.
+* Established a strong foundation for advanced machine learning algorithms and predictive analytics.
+
+---
