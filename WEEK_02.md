@@ -2,7 +2,7 @@
 # 📂 Week 2: Data Visualization and Feature Engineering
 
 # 📅 Day 5: Feature Engineering and Data Transformation Techniques
-**Date:** 05 July 2026
+**Date:** 06 July 2026
 
 ### 📝 Technical Competencies Acquired
 
@@ -75,7 +75,7 @@
 
 # 📅 Day 6: Principal Component Analysis (PCA) and Dimensionality Reduction
 
-**Date:** 06 July 2026
+**Date:** 07 July 2026
 
 ### 📝 Technical Competencies Acquired
 
@@ -144,7 +144,7 @@
 
 # 📅 Day 7: Handling Imbalanced Datasets and Sampling Techniques
 
-**Date:** 07 July 2026
+**Date:** 08 July 2026
 
 ### 📝 Technical Competencies Acquired
 
@@ -225,7 +225,7 @@
 
 # 📅 Day 8: Pattern Detection, Anomaly Identification, and Clustering Techniques
 
-**Date:** 08 July 2026
+**Date:** 09 July 2026
 
 ### 📝 Technical Competencies Acquired
 
