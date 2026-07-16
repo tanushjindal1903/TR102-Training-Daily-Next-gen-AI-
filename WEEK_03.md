@@ -68,6 +68,10 @@
 
 ---
 
+⭐ ⭐ ⭐
+
+---
+
 # 📅 Day 11: Introduction to Supervised Learning and Predictive Modeling
 
 **Date:** July 10, 2026
@@ -144,5 +148,87 @@
 * Developed familiarity with Logistic Regression and its applications in classification problems.
 * Learned the importance of train-test splitting for evaluating model performance on unseen data.
 * Established a strong foundation for advanced machine learning algorithms and predictive analytics.
+
+---
+
+⭐ ⭐ ⭐
+
+---
+
+# 📅 Day 11: Classification Algorithms — Naïve Bayes, K-Nearest Neighbors (KNN), and Support Vector Machines (SVM)
+
+**Date:** July 11, 2026
+
+### 📝 Technical Competencies Acquired
+
+#### 1. Introduction to Classification Algorithms
+* Developed an understanding of classification as a supervised machine learning technique used to predict categorical outcomes based on input features.
+* Learned how classification models identify patterns within labelled datasets and assign observations to predefined classes.
+* Explored the role of classification algorithms in predictive analytics and decision-making systems.
+
+#### 2. Naïve Bayes Classification
+* Studied Naïve Bayes as a probabilistic classification algorithm based on Bayes' Theorem.
+* Learned how the algorithm assumes feature independence while estimating class probabilities.
+* Understood its advantages including:
+    * Fast training and prediction.
+    * Efficient performance on high-dimensional datasets.
+    * Suitability for text classification and spam detection tasks.
+
+#### 3. K-Nearest Neighbors (KNN)
+* Explored KNN as a distance-based supervised learning algorithm.
+* Learned how KNN classifies new observations based on the majority class of its nearest neighbors.
+* Studied the significance of:
+    * Choosing an appropriate value of K.
+    * Distance metrics.
+    * Feature scaling for improved performance.
+
+#### 4. Support Vector Machines (SVM)
+* Developed an understanding of Support Vector Machines as a boundary-based classification algorithm.
+* Learned how SVM identifies an optimal hyperplane that maximizes the margin between different classes.
+* Explored the advantages of SVM in handling:
+    * High-dimensional datasets.
+    * Complex classification boundaries.
+    * Small and medium-sized datasets.
+
+#### 5. Model Evaluation Techniques
+* Studied various performance evaluation metrics for classification models including:
+    * Accuracy Score
+    * Classification Report
+    * Confusion Matrix
+* Learned how these metrics provide insights beyond simple prediction accuracy.
+
+#### 6. Comparative Analysis of Algorithms
+* Performed comparative analysis among Naïve Bayes, KNN, and SVM models.
+* Understood the strengths and limitations of each algorithm in different application domains.
+* Explored real-world use cases where specific algorithms perform more effectively.
+
+---
+
+### 💻 Practical Implementations
+
+* Imported and explored the mental health dataset using Pandas.
+* Performed preprocessing and feature selection for classification tasks.
+* Split the dataset into training and testing subsets using `train_test_split()`.
+* Implemented the Gaussian Naïve Bayes classifier using Scikit-learn.
+* Trained and evaluated the K-Nearest Neighbors (KNN) classifier.
+* Implemented Support Vector Machines (SVM) with a linear kernel.
+* Evaluated model performance using:
+    * Accuracy Score
+    * Classification Report
+    * Confusion Matrix
+* Compared algorithm performance using a consolidated results DataFrame.
+* Generated predictions for unseen observations using trained models.
+
+---
+
+### 📚 Learning Outcomes
+
+* Developed a strong understanding of supervised classification problems and their practical applications.
+* Acquired practical experience in implementing Naïve Bayes, KNN, and SVM algorithms using Scikit-learn.
+* Learned the differences between probability-based, distance-based, and boundary-based learning approaches.
+* Improved understanding of model evaluation techniques and performance metrics.
+* Gained experience in comparing multiple machine learning models on the same dataset.
+* Developed the ability to select appropriate algorithms based on dataset characteristics and business requirements.
+* Established a strong foundation for advanced machine learning topics such as ensemble learning and model optimization.
 
 ---
