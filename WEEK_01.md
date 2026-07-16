@@ -1,7 +1,7 @@
 # 📂 Week 1: Foundations of Data Exploration
 
 ## 📅 Day 1: Core Data Concepts & Frameworks
-**Date:** July 2, 2026
+**Date:** June 30, 2026
 
 ### 📝 Technical Competencies Acquired
 
@@ -55,7 +55,7 @@
 ---
 
 ## Day 2: Python Primitive Data Types, Collections, and Introductory Pandas Data Structures
-**Date:** 1 July 2026
+**Date:** July 01 , 2026
 
 ### Technical Overview
 The session focused on how programming environments manage data in memory before executing data pipelines or machine learning tasks. The lab activities moved from analyzing primitive primitive data types to working with Python collections (lists, tuples, dictionaries, and sets). The day concluded with practical implementations of data-driven logic challenges and an introduction to the Pandas library for structured data manipulation.
@@ -114,7 +114,7 @@ The session focused on how programming environments manage data in memory before
 ---
 
 ## Day 3: End-to-End Data Pipeline Execution, Cleaning, and Exploratory Data Analysis (EDA)
-**Date:** 2 July 2026
+**Date:** July 02, 2026
 
 ### Technical Overview
 The laboratory session centered on executing a complete data pipeline workflow, progressing from raw data ingestion to analytical insights. Operations involved mounting a cloud drive file directory, profiling dataset schemas, implementing mathematical data imputation for missing records, transforming features via programmatic map filters, and building statistical data visualizations utilizing Matplotlib and Seaborn libraries.
@@ -173,7 +173,7 @@ The laboratory session centered on executing a complete data pipeline workflow, 
 
 ---
 ## 📅 Day 4: Data Analysis Techniques & Feature Engineering
-**Date:** July 3, 2026
+**Date:** July 03, 2026
 
 ### 📝 Technical Competencies Acquired
 
@@ -259,9 +259,9 @@ Developed a strong understanding of exploratory data analysis techniques by anal
 ---
 ---
 
-# 📅 Day 4: Data Visualization Using Matplotlib and Seaborn
+# 📅 Day 5: Data Visualization Using Matplotlib and Seaborn
 
-**Date:** 04 July 2026
+**Date:** 06 July 2026
 
 ### 📝 Technical Competencies Acquired
 
