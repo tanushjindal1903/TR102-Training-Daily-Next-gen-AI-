@@ -1,9 +1,9 @@
-# 📂 Week 3: Advanced Data Analysis and Machine Learning Preparation
+# 📂 Week 3: Automated Data Analysis and Machine Learning Preparation
 ---
 
 # 📅 Day 10: Automated Exploratory Data Analysis and Data Profiling Tools
 
-**Date:** 09 July 2026
+**Date:** July 09 , 2026
 
 ### 📝 Technical Competencies Acquired
 
