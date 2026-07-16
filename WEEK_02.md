@@ -141,72 +141,81 @@
 
 ---
 
-# 📅 Day 6: Principal Component Analysis (PCA) and Dimensionality Reduction
 
-**Date:** 06 July 2026
+# 📅 Day 7: Handling Imbalanced Datasets and Sampling Techniques
+
+**Date:** 07 July 2026
 
 ### 📝 Technical Competencies Acquired
 
-#### 1. Introduction to Dimensionality Reduction
-* Developed an understanding of dimensionality reduction as a technique used to decrease the number of features in a dataset while preserving the most significant information.
-* Learned the importance of reducing computational complexity and improving model efficiency when working with high-dimensional datasets.
-* Understood how redundant and highly correlated features can negatively impact machine learning models.
+#### 1. Introduction to Imbalanced Datasets
+* Developed an understanding of imbalanced datasets, where one class contains significantly more observations than another.
+* Learned how class imbalance can cause machine learning models to become biased towards the majority class.
+* Understood the limitations of relying solely on accuracy as an evaluation metric for imbalanced datasets.
 
-#### 2. Principal Component Analysis (PCA)
-* Studied Principal Component Analysis (PCA) as a statistical technique for reducing dimensionality.
-* Learned how PCA transforms multiple correlated variables into a smaller number of uncorrelated variables known as **Principal Components**.
-* Understood that each principal component captures a portion of the variance present in the original dataset.
+#### 2. Class Distribution Analysis
+* Explored class distribution using visualization techniques and frequency analysis.
+* Learned how count plots and class frequency statistics help identify imbalance problems within datasets.
+* Studied the impact of skewed distributions on predictive model performance.
 
-#### 3. Feature Correlation and Redundancy
-* Explored the concept of feature correlation and the presence of overlapping information among variables.
-* Learned how PCA combines correlated features into representative components without significant information loss.
-* Understood the advantages of eliminating redundant information prior to model training.
+#### 3. Random Oversampling
+* Studied Random Oversampling as a technique for increasing the size of the minority class by duplicating existing observations.
+* Learned how oversampling helps improve class balance during model training.
+* Understood the advantages and limitations associated with duplicate data generation.
 
-#### 4. Data Standardization
-* Learned the importance of scaling numerical features before applying PCA.
-* Utilized standardization techniques to ensure that all variables contribute equally to the principal components.
-* Understood the role of feature scaling in distance-based and variance-based algorithms.
+#### 4. Random Undersampling
+* Explored Random Undersampling for reducing the number of majority class samples.
+* Learned how undersampling improves class balance by removing excess observations.
+* Understood the trade-off between reduced training size and potential information loss.
 
-#### 5. Variance Preservation
-* Studied the concept of explained variance and its role in selecting the number of principal components.
-* Learned how cumulative explained variance helps determine the amount of information retained after dimensionality reduction.
-* Understood the trade-off between reducing dimensionality and preserving information.
+#### 5. Synthetic Minority Oversampling Technique (SMOTE)
+* Studied SMOTE as an advanced oversampling technique for generating synthetic minority class samples.
+* Learned how SMOTE creates new observations by interpolating between existing minority class instances.
+* Understood the advantages of synthetic sample generation over simple duplication.
 
-#### 6. PCA Visualization
-* Generated two-dimensional projections of multidimensional data using principal components.
-* Visualized transformed datasets to identify hidden patterns and similarities among observations.
-* Interpreted scatter plots representing data points in reduced feature space.
+#### 6. Tomek Links
+* Explored Tomek Links as an undersampling technique used for removing overlapping observations between classes.
+* Learned how Tomek Links improve class separation and reduce classification ambiguity.
+* Understood its role in cleaning noisy decision boundaries.
+
+#### 7. Adaptive Synthetic Sampling (ADASYN)
+* Studied ADASYN as an extension of SMOTE that generates synthetic samples based on local data density.
+* Learned how ADASYN focuses more heavily on difficult-to-learn minority samples.
+* Understood the advantages of adaptive sample generation in highly imbalanced datasets.
+
+#### 8. Hybrid Sampling Techniques
+* Explored SMOTE-Tomek as a hybrid approach combining oversampling and data cleaning techniques.
+* Learned how hybrid methods simultaneously improve class balance and remove noisy observations.
+* Understood the benefits of combining multiple sampling strategies for improved model performance.
 
 ---
 
 ### 💻 Practical Implementations
 
-* Imported and explored a student placement dataset using Pandas.
-* Selected numerical attributes including:
-    * Age
-    * CGPA
-    * Attendance
-    * Study Hours
-    * Backlogs
-* Applied `StandardScaler` to normalize feature values.
-* Implemented PCA using Scikit-learn's `PCA` module with two principal components.
-* Calculated explained variance ratios to evaluate information retention.
-* Computed cumulative explained variance using NumPy.
-* Visualized the transformed dataset using Matplotlib scatter plots.
+* Imported and explored the cleaned student placement dataset using Pandas.
+* Analyzed class distribution for the `Placement_Status` variable.
+* Visualized class imbalance using Seaborn count plots.
+* Split the dataset into training and testing subsets using Scikit-learn.
+* Applied Random Oversampling using `RandomOverSampler`.
+* Applied Random Undersampling using `RandomUnderSampler`.
+* Implemented SMOTE for synthetic minority sample generation.
+* Applied Tomek Links for boundary cleaning and noise reduction.
+* Implemented ADASYN for adaptive synthetic sample generation.
+* Combined SMOTE and Tomek Links using `SMOTETomek`.
+* Compared class distributions before and after applying balancing techniques.
 
 ---
 
 ### 📚 Learning Outcomes
 
-* Developed a strong understanding of dimensionality reduction and its importance in machine learning workflows.
-* Acquired practical knowledge of Principal Component Analysis and its applications in handling high-dimensional data.
-* Learned how PCA reduces redundancy while preserving the most informative characteristics of a dataset.
-* Gained experience in standardizing data prior to feature transformation.
-* Improved understanding of explained variance and component selection.
-* Developed the ability to visualize multidimensional data in lower-dimensional spaces.
-* Gained hands-on experience using Scikit-learn libraries for feature transformation and preprocessing tasks.
-* Established a strong foundation for advanced machine learning concepts involving feature optimization and model efficiency.
-
+* Developed a strong understanding of the challenges posed by imbalanced datasets in machine learning.
+* Learned how class imbalance can affect model learning and prediction quality.
+* Acquired practical knowledge of oversampling and undersampling strategies.
+* Gained hands-on experience with advanced balancing techniques such as SMOTE, ADASYN, and Tomek Links.
+* Improved understanding of synthetic sample generation methods.
+* Developed the ability to select appropriate balancing techniques based on dataset characteristics.
+* Enhanced proficiency in using the `imbalanced-learn` library for preprocessing tasks.
+* Established a strong foundation for building robust and unbiased machine learning models.
 
 ---
 
