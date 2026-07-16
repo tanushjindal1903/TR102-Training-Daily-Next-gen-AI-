@@ -3,7 +3,7 @@
 
 # 📅 Day 10: Automated Exploratory Data Analysis and Data Profiling Tools
 
-**Date:** July 09 , 2026
+**Date:** July 13 , 2026
 
 ### 📝 Technical Competencies Acquired
 
@@ -74,7 +74,7 @@
 
 # 📅 Day 11: Introduction to Supervised Learning and Predictive Modeling
 
-**Date:** July 10, 2026
+**Date:** July 14, 2026
 
 ### 📝 Technical Competencies Acquired
 
@@ -157,7 +157,7 @@
 
 # 📅 Day 11: Classification Algorithms — Naïve Bayes, K-Nearest Neighbors (KNN), and Support Vector Machines (SVM)
 
-**Date:** July 11, 2026
+**Date:** July 15, 2026
 
 ### 📝 Technical Competencies Acquired
 
