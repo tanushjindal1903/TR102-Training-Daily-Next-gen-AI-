@@ -300,5 +300,90 @@
 * Developed familiarity with planning the transition from theoretical learning to practical project development.
 * Enhanced understanding of project documentation and repository management practices.
 * Established a clear roadmap for the upcoming implementation phase of the Personalized Movie Recommendation System.
+---
+
+⭐ ⭐ ⭐
+
+---
+
+# 📅 Day 12: Decision Trees and Random Forest Classification
+
+**Date:** July 17, 2026
+
+### 📝 Technical Competencies Acquired
+
+#### 1. Introduction to Decision Trees
+* Developed an understanding of Decision Trees as supervised machine learning algorithms used for classification and prediction tasks.
+* Learned how Decision Trees recursively split datasets into smaller subsets based on feature values to create a tree-like decision structure.
+* Understood the importance of decision nodes, leaf nodes, and splitting criteria in model construction.
+
+#### 2. Decision Tree Training
+* Studied the process of training a Decision Tree classifier using labelled data.
+* Learned how the **Gini Impurity** criterion is used to determine the best feature splits.
+* Explored the significance of controlling tree depth to reduce model complexity and prevent overfitting.
+
+#### 3. Model Evaluation
+* Learned to evaluate classification models using standard performance metrics, including:
+    * Accuracy Score
+    * Classification Report
+    * Confusion Matrix
+* Understood how these metrics provide insights into model performance and prediction quality.
+
+#### 4. Decision Tree Visualization
+* Explored graphical visualization of Decision Trees to understand the sequence of decision-making.
+* Learned how feature-based splits influence classification outcomes.
+* Understood the importance of tree visualization for improving model interpretability.
+
+#### 5. Introduction to Random Forest
+* Developed an understanding of Random Forest as an ensemble learning algorithm consisting of multiple Decision Trees.
+* Learned how combining predictions from multiple trees improves prediction accuracy and model stability.
+* Explored the advantages of Random Forest in reducing overfitting and handling complex datasets.
+
+#### 6. Feature Importance Analysis
+* Studied how Random Forest measures the contribution of each feature towards prediction.
+* Learned to interpret feature importance scores for identifying influential variables.
+* Understood the significance of feature ranking in model interpretation and feature selection.
+
+#### 7. Comparative Study of Decision Tree and Random Forest
+* Compared the characteristics of Decision Tree and Random Forest algorithms.
+* Understood the strengths, limitations, and practical applications of both techniques.
+* Learned how ensemble learning generally produces more robust and reliable predictions than a single decision tree.
+
+---
+
+### 💻 Practical Implementations
+
+* Imported and explored the Teen Mental Health dataset using Pandas.
+* Selected relevant input features including:
+    * Daily Social Media Hours
+    * Sleep Hours
+    * Academic Performance
+    * Stress Level
+    * Anxiety Level
+    * Addiction Level
+* Split the dataset into training and testing subsets using `train_test_split()`.
+* Implemented a Decision Tree classifier using Scikit-learn with the Gini criterion.
+* Trained and evaluated the Decision Tree model using accuracy score, classification report, and confusion matrix.
+* Visualized the trained Decision Tree using Matplotlib.
+* Built a Random Forest classifier with multiple decision trees.
+* Evaluated Random Forest performance using standard classification metrics.
+* Generated predictions for new student records using both models.
+* Visualized feature importance to identify the most influential predictors affecting classification.
+
+---
+
+### 📚 Learning Outcomes
+
+* Developed a strong understanding of Decision Tree algorithms and their role in supervised machine learning.
+* Learned how Decision Trees perform feature-based splitting to classify observations.
+* Acquired practical experience in implementing Decision Tree and Random Forest models using Scikit-learn.
+* Improved understanding of model evaluation using accuracy scores, confusion matrices, and classification reports.
+* Gained knowledge of ensemble learning and the advantages of Random Forest over individual Decision Trees.
+* Learned to interpret feature importance for identifying significant predictive variables.
+* Enhanced proficiency in visualizing machine learning models and understanding their decision-making process.
+* Established a strong foundation for studying advanced ensemble methods, boosting algorithms, and predictive model optimization.
+---
+
+⭐ ⭐ ⭐
 
 ---
