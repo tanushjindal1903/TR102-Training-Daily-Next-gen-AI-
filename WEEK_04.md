@@ -73,6 +73,81 @@
 ---
 
 ⭐ ⭐ ⭐
+---
+# 📅 Day 16: Feature Selection Techniques for Machine Learning
+
+**Date:** July 21, 2026
+
+### 📝 Technical Competencies Acquired
+
+#### 1. Introduction to Feature Selection
+* Developed an understanding of **Feature Selection** as the process of selecting the most relevant features from a dataset while eliminating redundant and less informative attributes.
+* Learned how feature selection improves machine learning model efficiency, interpretability, and predictive performance.
+* Understood the importance of reducing dataset dimensionality before model training.
+
+#### 2. Benefits of Feature Selection
+* Studied the advantages of feature selection in machine learning workflows, including:
+    * Faster model training.
+    * Improved prediction accuracy.
+    * Reduced risk of overfitting.
+    * Lower memory consumption.
+    * Better model interpretability.
+    * Removal of irrelevant and redundant features.
+
+#### 3. Types of Feature Selection Methods
+* Explored the three primary categories of feature selection techniques:
+    * **Filter Methods**
+    * **Wrapper Methods**
+    * **Embedded Methods**
+* Understood the differences between these approaches and their applications in machine learning.
+
+#### 4. Variance Threshold Method
+* Studied the Variance Threshold technique for identifying and removing features with very low variance.
+* Learned how nearly constant features contribute minimal information during model training.
+* Understood the importance of selecting an appropriate variance threshold for effective feature reduction.
+
+#### 5. Correlation-Based Feature Selection
+* Explored correlation analysis as a method for measuring the relationship between input features and the target variable.
+* Learned how features with stronger correlations often provide greater predictive value.
+* Visualized feature relationships using a correlation heatmap.
+
+#### 6. Chi-Square Feature Selection
+* Studied the Chi-Square statistical test for evaluating the dependency between categorical features and the target variable.
+* Learned how higher Chi-Square scores indicate stronger relationships with the target.
+* Understood the suitability of the Chi-Square test for classification problems.
+
+#### 7. Mutual Information
+* Developed an understanding of Mutual Information as a feature selection technique capable of identifying both linear and non-linear relationships.
+* Learned how Mutual Information measures the amount of information shared between a feature and the target variable.
+* Understood its importance in selecting informative features for predictive modeling.
+
+---
+
+### 💻 Practical Implementations
+
+* Imported the Teen Mental Health dataset using Pandas.
+* Encoded categorical features using `LabelEncoder`.
+* Applied Variance Threshold to remove low-variance features.
+* Calculated feature variances and visualized them using Matplotlib bar charts.
+* Performed correlation analysis between input features and the target variable.
+* Generated a correlation heatmap using Seaborn.
+* Implemented Chi-Square feature selection using `SelectKBest` and `chi2`.
+* Applied feature scaling using `MinMaxScaler` before Chi-Square analysis.
+* Calculated Mutual Information scores using Scikit-learn.
+* Compared feature importance rankings obtained from multiple feature selection techniques.
+
+---
+
+### 📚 Learning Outcomes
+
+* Developed a strong understanding of the importance of feature selection in machine learning pipelines.
+* Learned how removing irrelevant and redundant features improves model efficiency and generalization.
+* Gained practical experience with Variance Threshold, Correlation Analysis, Chi-Square, and Mutual Information feature selection techniques.
+* Improved understanding of statistical methods used for identifying important predictive variables.
+* Acquired proficiency in using Scikit-learn's feature selection modules for preprocessing tasks.
+* Learned how to visualize feature importance using bar charts and correlation heatmaps.
+* Enhanced the ability to compare different feature selection techniques based on dataset characteristics.
+* Established a strong foundation for building efficient, interpretable, and high-performing machine learning models.
 
 ---
 ---
