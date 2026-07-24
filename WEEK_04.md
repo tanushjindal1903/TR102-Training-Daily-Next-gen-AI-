@@ -1,7 +1,7 @@
 # 📂 Week 4: Regression Models and Model Optimization
 
 # 📅 Day 13: Linear, Ridge, and Lasso Regression
----
+
 **Date:** July 20, 2026
 
 ### 📝 Technical Competencies Acquired
@@ -69,5 +69,19 @@
 * Gained experience in comparing multiple regression models based on their predictive performance.
 * Enhanced proficiency in preparing datasets, training regression models, and generating predictions.
 * Established a strong foundation for advanced regression techniques and model optimization methods.
+
+---
+
+⭐ ⭐ ⭐
+
+---
+---
+
+⭐ ⭐ ⭐
+
+---
+---
+
+⭐ ⭐ ⭐
 
 ---
