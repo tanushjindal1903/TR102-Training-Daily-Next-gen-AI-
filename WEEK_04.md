@@ -73,7 +73,9 @@
 ---
 
 ⭐ ⭐ ⭐
+
 ---
+
 # 📅 Day 16: Feature Selection Techniques for Machine Learning
 
 **Date:** July 21, 2026
@@ -148,15 +150,73 @@
 * Learned how to visualize feature importance using bar charts and correlation heatmaps.
 * Enhanced the ability to compare different feature selection techniques based on dataset characteristics.
 * Established a strong foundation for building efficient, interpretable, and high-performing machine learning models.
-
----
 ---
 
 ⭐ ⭐ ⭐
 
 ---
+
+# 📅 Day 17: Wrapper-Based Feature Selection Techniques
+
+**Date:** July 22, 2026
+
+### 📝 Technical Competencies Acquired
+
+#### 1. Introduction to Wrapper Methods
+* Developed an understanding of **Wrapper Methods** as feature selection techniques that evaluate different subsets of features using a machine learning model.
+* Learned how wrapper methods determine the optimal combination of features based on model performance rather than statistical measures alone.
+* Understood the advantages of wrapper methods in improving prediction accuracy through informed feature selection.
+
+#### 2. Forward Feature Selection
+* Studied Forward Selection as an iterative feature selection technique.
+* Learned how the algorithm starts with an empty feature set and progressively adds features that provide the greatest improvement in model performance.
+* Understood the stopping criteria based on the desired number of selected features or performance improvement.
+
+#### 3. Backward Feature Elimination
+* Explored Backward Elimination as a reverse feature selection approach.
+* Learned how the algorithm begins with all available features and removes the least significant feature at each iteration.
+* Understood how eliminating unnecessary features simplifies the model while maintaining predictive performance.
+
+#### 4. Recursive Feature Elimination (RFE)
+* Studied Recursive Feature Elimination (RFE) as an embedded wrapper technique.
+* Learned how RFE repeatedly trains a model, ranks feature importance, and removes the least important features until the desired number of predictors remains.
+* Understood the importance of feature ranking in selecting the most informative variables.
+
+#### 5. Recursive Feature Elimination with Cross Validation (RFECV)
+* Developed an understanding of RFECV as an enhanced version of RFE.
+* Learned how cross-validation automatically determines the optimal number of features by evaluating model performance across multiple folds.
+* Understood the advantages of RFECV in selecting an optimal feature subset while reducing the risk of overfitting.
+
+#### 6. Model-Based Feature Selection
+* Explored the use of Logistic Regression and Decision Tree classifiers for evaluating feature subsets.
+* Learned how different machine learning algorithms may select different feature combinations based on their learning mechanisms.
+* Understood the relationship between feature selection and model performance.
+
 ---
 
-⭐ ⭐ ⭐
+### 💻 Practical Implementations
+
+* Imported the Teen Mental Health dataset using Pandas.
+* Encoded categorical variables using `LabelEncoder`.
+* Separated the dataset into input features and target variables.
+* Implemented **Forward Feature Selection** using `SequentialFeatureSelector`.
+* Applied **Backward Feature Elimination** to identify the most relevant predictors.
+* Performed **Recursive Feature Elimination (RFE)** using Logistic Regression.
+* Generated feature rankings based on model importance.
+* Implemented **RFECV** to automatically determine the optimal number of features using cross-validation.
+* Compared the feature subsets selected by different wrapper-based feature selection techniques.
+
+---
+
+### 📚 Learning Outcomes
+
+* Developed a strong understanding of wrapper-based feature selection methods and their significance in machine learning.
+* Learned how Forward Selection, Backward Elimination, RFE, and RFECV identify the most informative features.
+* Acquired practical experience in implementing feature selection techniques using Scikit-learn and Mlxtend.
+* Improved understanding of how feature selection contributes to better model accuracy and reduced computational complexity.
+* Gained knowledge of feature ranking and model-based evaluation strategies.
+* Learned the importance of cross-validation in selecting the optimal number of predictive features.
+* Enhanced proficiency in preprocessing datasets and optimizing feature subsets for supervised learning models.
+* Established a strong foundation for advanced feature engineering and machine learning model optimization.
 
 ---
