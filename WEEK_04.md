@@ -1,9 +1,7 @@
----
-
 # 📂 Week 4: Regression Models and Model Optimization
 
 # 📅 Day 13: Linear, Ridge, and Lasso Regression
-
+---
 **Date:** July 20, 2026
 
 ### 📝 Technical Competencies Acquired
